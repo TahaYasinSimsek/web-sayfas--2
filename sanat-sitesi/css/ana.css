@@ -1,0 +1,640 @@
+.mobile-container 
+{
+    width: 100.6%;
+    background-image:linear-gradient(90deg, #060607 45%,rgba(6,6,7,0) 75%), url("../image/davinci.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 610px;
+    color: white;
+    margin-left: -7.7px;
+    float: left;
+}
+.giris
+{
+    font-family: 'Dancing Script', cursive;
+    float: left;
+    width: 40%;
+    margin: 170px 150px 50px 50px;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+.topnav 
+{
+    margin-bottom: 0px;
+    margin-top: -8px;
+    margin-left: -7.7px;
+    width: 100.6%;
+    height: 60px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    float: left;
+} 
+.logo
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.logonun
+{
+    width: 85px;
+    height: 65px;
+}
+.logo a
+{
+    text-decoration: none;
+}
+.logo a:hover
+{
+    background-color: black;
+}
+.logo a:visited
+{
+    text-decoration: none;
+}
+.topnav #myLinks 
+{
+    display: none;
+    margin-left: 30%;
+} 
+.topnav .navin 
+{
+    float: left;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align:end;
+} 
+.topnav  a.icon 
+{
+    color: #ddd;
+    font-size: 24px;
+    float: right;
+    padding: 15px;
+    margin: 5px 20px 0px 0px;
+} 
+.topnav .navin:hover 
+{
+    
+    color: #fff941;
+}  
+.uclu
+{
+    width: 350px;
+    height: 450px;
+    float: left;
+    margin-left: 70px;
+    position: sticky;
+    z-index: 2;
+    margin-top: -70px;
+    border-radius: 5px 5px 50px 5px;
+}
+.uclu:hover
+{
+    transform: scale(1.02);
+}
+.ucluone
+{
+    background: url(../image/bellegin-azmi-salvador-dali.jpg);
+    background-image: linear-gradient(rgba(1, 2, 7, 0.16) 0%, rgb(0, 0, 0) 100%), url(../image/bellegin-azmi-salvador-dali.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.uclutwo
+{
+    background: url(../image/venus.jpg);
+    background-image: linear-gradient(rgba(1, 2, 7, 0.16) 0%, rgb(0, 0, 0) 100%), url(../image/venus.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ucluthree
+{
+    background: url(../image/yildizligece.jpg);
+    background-image: linear-gradient(rgba(1, 2, 7, 0.16) 0%, rgb(0, 0, 0) 100%), url(../image/yildizligece.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ucluadress
+{
+    text-decoration: none;
+    color: #fff941;
+}
+.ucluadress:visited
+{
+    color: #fff941;
+    text-decoration: none;
+}
+.ucluadress div
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Petit Formal Script', cursive;
+    width: 100%;
+    height: 20%;
+}
+.ucluadress div p
+{
+    margin-top: 90%;
+}
+.renkli
+{
+    position: relative;
+    margin-top: -380px;
+    margin-left: -9px;
+    float: left;
+    width: 100.7%;
+    height: 850px;
+    background-color: rgba(255,255,255,0);background-image:linear-gradient(150deg, #0219eb 0%,#d5000b 100%);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+.renkliyazi
+{
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 40%;
+}
+.tablone
+{
+    float: left;
+    width: 100.6%;
+    margin-left: -9px;
+    background: #282b32;
+    height: 650px;
+}
+.tablone table
+{
+    color: white;
+    width: 70%;
+    height: 450px;
+    text-align: center;
+    font-size: 18px;
+    margin: 100px 0px 0px 190px;
+}
+.tablone table, td,th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tablone  th
+{
+    background: #eb3c43;
+    font-size: 25px;
+}
+.tablone p
+{
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: 60px 0px -50px 450px;
+}
+footer
+{
+    float: left;
+    width: 100.7%;
+    margin-left: -9px;
+    height: 600px;
+    background: #000000;
+    text-align: center;
+    color: #fff;
+}
+.foteruclu
+{
+    float: left;
+    height: 350px;
+    width: 25%;
+    margin: 70px 0px 70px 70px;
+    text-align: left;
+}
+.foteralt
+{
+    float: left;
+    width: 99.8%;
+    height: 80px;
+    border-top:1px solid rgb(116, 116, 116);
+    text-align:center;
+    font-size: 25px;
+}
+.foteralt div
+{
+    margin-top: 30px;
+}
+.foteruclu img
+{
+    width: 30%;
+    height: 25%;
+    
+}
+.foticon
+{   margin-top: 40px;
+    text-align: center;
+}
+.foticon a
+{
+    color: white;
+    text-decoration: none;
+    margin: 80px 20px 0px 0px;
+}
+.foticon a:hover,i:hover
+{
+    color: #fff941;
+    text-decoration: none;
+}
+.foticon a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.foteruclu ul
+{
+    list-style-type:none;
+    text-align: center;
+}
+.foteruclu ul li i
+{
+    margin-right: 10px;
+    margin-left: -20px;
+}
+.foteruclu ul li:hover,i:hover
+{
+    color: #fff941;
+}
+.iletisim
+{
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+}
+.iletisim h3
+{
+    margin-bottom: 50px;
+}
+.genelresim
+{   
+    float: left;
+    width: 85%;
+    margin: 30px 0px 0px 100px;
+}
+.genelresimbakis
+{
+  float: left;
+  margin: 10px 15px 30px 0px;  
+  height: 400px;
+  width: 360px;
+}
+.genelresimimg
+{
+    float: left;
+    width: 100%;
+    height: 180px;
+}
+.genelresimtext
+{
+    float: left;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 40px;
+    font: 24px;
+    color: #ffffff;
+    padding: 5px;
+}
+.arkaplan
+{
+    float: left;
+    margin-top: 50px;
+    margin-left: -8px;
+    width: 100.6%;
+    height: 750px;
+    position:absolute;
+    z-index: -2;
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(2,2,4,0.8407738095238095) 100%),url('../image/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.arkaplan1
+{    
+    float: left;
+    margin-top: 720px;
+    margin-left: -8px;
+    width: 100.6%;
+    height: 800px;
+    position:absolute;
+    z-index: -1;
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(2,2,4,0.8407738095238095) 100%), url('../image/pexels-photo-586744.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.picturebig
+{
+    position: absolute;
+    width: 0px;
+    z-index: 10;
+    margin-left: -400px;
+}
+.picture:hover + .picturebig
+{
+    width: 350px;
+    height: 350px;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.galerinin
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+}
+.box
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 40s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: perspective(800px) rotateY(0deg);
+    }
+    100%
+    {
+        transform: perspective(800px) rotateY(360deg);
+    }
+}
+.box span 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-grandient(transparent,transparent,#0004);
+}
+.box span img
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.kayitolana
+{
+    float: left;
+    width: 100%;
+    height: 850px;
+    background-image: url('../image/kytol.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.formarea
+{
+    width: 50%;
+    height: 75%;
+    border: 2px solid rgb(129, 126, 126);
+    border-radius: 15px;
+    float: left;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+.formbaslik
+{
+    float: left;
+    width: 100%;
+    height: 20%;
+    background: #32505b;
+    opacity: 0.6;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+    left: 0;
+    font-size: 26px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.formbaslik div
+{
+    float: left;
+    margin-top: 30px;
+    margin-left: 35%;
+}
+.formun
+{
+    float: left;
+    width: 100%;
+    background: #bec2ce;
+    opacity: 0.3;
+    height: 80%;
+}
+.kayitform
+{
+    width: 590px;
+    margin-left: 3%;
+    height: 85%;
+    margin-top: 12%;
+    font-size: 22px;
+    color: #000;
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+}
+.girisform
+{
+    width: 590px;
+    margin-left: 3%;
+    height: 85%;
+    margin-top: 18%;
+    font-size: 22px;
+    color: #000;
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+}
+.kayitform label
+{
+    color: black;
+    margin-top: 10px ;
+}
+.textolan
+{
+    height: 25px;
+    width: 80%;
+    color: #000;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.textolan1
+{
+    height: 35px;
+    width: 50%;
+    color: #000;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.bolum1
+{
+    width: 50%;
+    float: left;
+}
+.bolum2
+{
+    width: 50%;
+    float: left;
+}
+.bolum3
+{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.bolum4
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.bolum3 button
+{
+    width: 80px;
+    height: 30px;
+    color: #ffffff;
+    background: #32505b;
+    font-size: large;
+    border-radius: 5px;
+}
+.bolum3 a
+{
+    width: 100px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    background: #4b6670;
+    font-size: large;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 80px;
+}
+.girislink
+{
+    float: left;
+    margin-left: 25%;
+}
+.bolum3 a div
+{
+    margin-top: 10%;
+}
+.bolum3 a:hover
+{
+    background: #32505b;
+}
+.girisana
+{
+    float: left;
+    width: 100%;
+    height: 850px;
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(2,2,4,0.3701855742296919) 100%), url('../image/girisphoto.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.satisana
+{
+    width: 100%;
+    height: 800px;
+    float: left;
+    background: url('../image/sbg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.satisgrup
+{
+    width: 22%;
+    height: 300px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.satısimg
+{
+    width: 100%;
+    height: 60%;
+}
+.satisfiyat
+{
+    width: 100%;
+    height: 40%;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+.takvimana
+{
+    background:linear-gradient(90deg, rgba(0,0,0,0.6839110644257703) 0%, rgba(2,2,4,0.34217436974789917) 100%), url('../image/tkbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    width: 100%;
+    text-align: center;
+    
+}
+.takvimana h2
+{
+    margin-top: 60px;
+    color: #fff;
+}
+.takvimana img
+{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.takvimgrup1
+{
+    float: left;
+    margin: 50px;
+    font-size: 22px;
+}
+.takvimgrup1 p
+{
+    width: 46%;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.takvimgrup2
+{
+    float: left;
+    margin: 50px;
+}
+.takvimgrup3
+{
+    float: left;
+    margin: 50px;
+}
